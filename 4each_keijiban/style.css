@@ -1,0 +1,110 @@
+html {
+    font-family:'Arial','メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#logo img{
+    width: 30%;
+}
+header,footer {
+    width: 100%;
+    height: 48px;
+    background-color: black;
+    color: white;
+}
+header {
+    padding-left: 2rem;
+}
+footer {
+    text-align: center;
+}
+header li {
+    display: inline-block;
+    line-height: 3;
+    padding-right: 1rem;
+}
+header a {
+    color: white;
+}
+footer p {
+    line-height: 3;
+}
+main {
+    display: inline-block;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+h1 {
+    font-size: 1.5rem;
+    border-left: 4px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 1rem;
+}
+div {
+    width: calc(100%-2px-1rem);
+    margin-top: 1rem;
+    background-color: rgb(237, 237, 236);
+    border: 2px solid rgb(176, 173, 173);
+    border-radius: 3px;
+    padding: 1rem 0.5rem;
+    padding-top:0;
+}
+div h2 {
+    font-size: 1.1rem;
+    border-left: 4px solid rgb(182, 35, 35);
+    padding-left: 0.3rem;
+}
+form dt {
+    color: rgb(90, 87, 87);
+}
+form dd {
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+input {
+    width: 40%;
+    height: 1.5rem;
+    border: 1.5px solid rgb(176, 173, 173);
+    border-radius: 2px;
+}
+#comments {
+    width: 80%;
+    height: 4rem;
+    border: 1.5px solid rgb(176, 173, 173);
+    border-radius: 2px;
+}
+.submit {
+    width: 4rem;
+}
+.submit:hover {
+    background-color: gray;
+}
+h3 {
+    color: rgb(90, 87, 87);
+    border-bottom: 2px dotted rgb(176, 173, 173);
+    width: auto;
+    font-size: 1.1rem;
+}
+.content {
+    color: rgb(90, 87, 87);
+    border: 0px;
+}
+aside {
+    display: inline-block;
+    width: 25%;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    vertical-align: top;
+}
+aside dt {
+    border-bottom: 2px dotted black;
+}
+aside dd {
+    margin-left:20px;
+    line-height: 1.5;
+}
+aside a {
+    color: black;
+}
